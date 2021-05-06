@@ -86,7 +86,7 @@ Airbnb uses R Markdown to document all their analyses in R, so they can combine 
 
 A huge number of homework assignments have been published to the website https://RPubs.com (a free publishing platform provided by RStudio), which shows that R Markdown is easy and convenient enough for students to do their homework assignments (see Figure \@ref(fig:rpubs)). When I was still a student, I did most of my homework assignments using Sweave, which was a much earlier implementation of literate programming based on the S language (later R) and LaTeX. I was aware of the importance of reproducible research but did not enjoy LaTeX, and few of my classmates wanted to use Sweave. Right after I graduated, R Markdown was born, and it has been great to see so many students do their homework in the reproducible manner.
 
-```{r rpubs, echo=FALSE, fig.cap='A screenshot of RPubs.com that contains some homework assginments submitted by students.', out.width='100%'}
+```{r rpubs, echo=FALSE, fig.cap='A screenshot of RPubs.com that contains some homework assignments submitted by students.', out.width='100%'}
 knitr::include_graphics('images/rpubs.png', dpi = NA)
 ```
 
